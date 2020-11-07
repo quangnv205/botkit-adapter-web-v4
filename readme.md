@@ -40,10 +40,10 @@ sendActivities()
 ```
 
 ## Run Server
-
+```
 $ npm install
 $ npm start
-
+```
 # Contribution
 Contributions are greatly appreciated. You can contribute by adding `i18n` support with your language, the testing section or any other feature.
 
