@@ -21,13 +21,15 @@ Edit the samples, and add your own in the [features/](features/) folder.
 Connect Botkit or BotBuilder to the Web. It offers both websocket and webhook capabilities. To use this adapter, you will need a compatible chat client - generate one using the Botkit yeoman generator, or use the one included in the project repo here.
 
 To use this class in your application, first install the package:
-
+```
 npm install --save botbuilder-adapter-web
+```
 Then import this and other classes into your code:
-
-const { WebAdapter } = require('botbuilder-adapter-web');
+```
+const { WebAdapter } = require('botbuilder-adapter-web')
+```
 This class includes the following methods:
-
+```
 continueConversation()
 createSocketServer()
 getConnection()
@@ -35,7 +37,7 @@ init()
 isConnected()
 processActivity()
 sendActivities()
-
+```
 
 ## Run Server
 
