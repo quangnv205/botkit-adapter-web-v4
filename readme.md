@@ -1,5 +1,5 @@
 # Support this project
-- Star GitLab repository :star:
+- Star GitHub repository :star:
 - Create pull requests, submit bugs or suggest new features
 - [Github](https://github.com/quangnv205)
 
@@ -16,6 +16,25 @@ To complete the configuration of this bot, make sure to update the included `.en
 
 This bot is powered by [a folder full of modules](https://botkit.ai/docs/v4/core.html#organize-your-bot-code). 
 Edit the samples, and add your own in the [features/](features/) folder.
+
+# WebAdapter
+Connect Botkit or BotBuilder to the Web. It offers both websocket and webhook capabilities. To use this adapter, you will need a compatible chat client - generate one using the Botkit yeoman generator, or use the one included in the project repo here.
+
+To use this class in your application, first install the package:
+
+npm install --save botbuilder-adapter-web
+Then import this and other classes into your code:
+
+const { WebAdapter } = require('botbuilder-adapter-web');
+This class includes the following methods:
+
+continueConversation()
+createSocketServer()
+getConnection()
+init()
+isConnected()
+processActivity()
+sendActivities()
 
 
 ## Run Server
